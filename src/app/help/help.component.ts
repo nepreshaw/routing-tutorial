@@ -13,7 +13,7 @@ export class HelpComponent implements OnInit {
     2: "A really bad error",
     3: "The worst error"
   }
-
+  
   errorMessage: string = "";
   errorCode: number = -1;
 
