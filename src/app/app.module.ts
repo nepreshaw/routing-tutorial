@@ -10,6 +10,7 @@ import { HelpComponent } from './help/help.component';
 import { HistoryComponent } from './history/history.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AdminComponent } from './admin/admin.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AdminComponent } from './admin/admin.component';
     HelpComponent,
     HistoryComponent,
     AdminLoginComponent,
-    AdminComponent
+    AdminComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
